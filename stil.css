@@ -1,0 +1,37 @@
+#gornja-slika {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dugmici img {
+  height: 25px;
+}
+
+p,
+table {
+  display: inline-block;
+  vertical-align: top;
+}
+
+p {
+  width: 50%;
+}
+
+table {
+  position: relative;
+  width: 500px;
+  float: right;
+}
+
+table img {
+  width: 100%;
+}
+
+.prikazi {
+  /* klasa koja nema ni jedan element sve dok ne kliknemo sliku */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
